@@ -12,10 +12,10 @@ Get-ChildItem (Get-Location) | ForEach-Object {
 
 	If ($_.Length -gt (Get-Item $7z_arch).Length) {
 		Remove-Item -LiteralPath $_
-		Move-Item $7z_arch $output_dir
+		Move-Item -LiteralPath $7z_arch $output_dir
 	} else {
 		Remove-Item -LiteralPath $7z_arch
-		Move-Item $_ $output_dir
+		Move-Item -LiteralPath $_ $output_dir
 	}
 
 	Get-ChildItem (Get-Location) -exclude *.zip, *.7z | ForEach-Object {
