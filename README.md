@@ -10,3 +10,6 @@ The second best result I've get is to use 7-Zip with LZMA compression method (I 
 
 Also, I've discovered that inside the same ROMSet and only for some files, I can get better compression ratio with my method than with the ROMVault's one.
 This script allows to optimize the utilization of the disk space.
+
+# RESULT
+I'm currently working on the result to know if it worths but I've 15TB to work with.
