@@ -43,7 +43,7 @@ Get-ChildItem (Get-Location) | ForEach-Object {
 
         # Remove extracted files
         Get-ChildItem (Get-Location) -exclude *.zip, *.7z | ForEach-Object {
-            Remove-Item -LiteralPath $_
+            Remove-Item -Recurse -LiteralPath $_
         }
     }
 
