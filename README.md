@@ -12,4 +12,5 @@ Also, I've discovered that inside the same ROMSet and only for some files, I can
 This script allows to optimize the utilization of the disk space.
 
 # RESULT
-I'm currently working on the result to know if it worths but I've 15TB to work with.
+~~I'm currently working on the result to know if it worths but I've 15TB to work with.~~
+As the process is taking too much time, I've used 3 HDD instead of 1 and have enough space now. I don't need anymore to use this script.
